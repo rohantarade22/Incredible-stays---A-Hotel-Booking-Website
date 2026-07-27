@@ -1,0 +1,6 @@
+.faq-hero {
+  padding: 8rem 1.5rem 1rem;
+  text-align: center;
+}
+.faq-hero h1 { margin-bottom: 0.6rem; }
+.faq-hero p { color: var(--text-muted); }

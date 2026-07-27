@@ -1,0 +1,87 @@
+.testimonial-carousel {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+.testimonial-carousel__card {
+  border-radius: var(--radius-lg);
+  padding: 2.5rem 2.2rem;
+}
+.testimonial-carousel__stars {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 1.1rem;
+  font-size: 1.1rem;
+}
+.star-filled { color: var(--color-secondary-dark); }
+.star-empty { color: var(--color-mid-gray); }
+.testimonial-carousel__comment {
+  font-size: 1.15rem;
+  font-family: var(--font-display);
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--text);
+  margin-bottom: 1.6rem;
+}
+.testimonial-carousel__user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.testimonial-carousel__user img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--color-secondary);
+}
+.testimonial-carousel__user div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.testimonial-carousel__user strong { color: var(--text); font-size: 0.95rem; }
+.testimonial-carousel__user span { color: var(--text-muted); font-size: 0.8rem; }
+
+.testimonial-carousel__controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+  margin-top: 1.6rem;
+}
+.testimonial-carousel__controls button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+.testimonial-carousel__controls button:hover {
+  background: var(--color-primary);
+  color: #fff;
+}
+.testimonial-carousel__dots {
+  display: flex;
+  gap: 8px;
+}
+.testimonial-carousel__dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-mid-gray);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.testimonial-carousel__dots span.active {
+  background: var(--color-secondary-dark);
+  width: 22px;
+  border-radius: 4px;
+}

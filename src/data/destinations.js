@@ -1,0 +1,17 @@
+export const destinations = [
+  { id: 1, name: "Goa", image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=80", hotels: 42 },
+  { id: 2, name: "Manali", image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80", hotels: 28 },
+  { id: 3, name: "Shimla", image: "https://images.unsplash.com/photo-1626197031507-c17099753214?auto=format&fit=crop&w=600&q=80", hotels: 24 },
+  { id: 4, name: "Jaipur", image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80", hotels: 35 },
+  { id: 5, name: "Udaipur", image: "https://images.unsplash.com/photo-1609949279531-cf48d64a3182?auto=format&fit=crop&w=600&q=80", hotels: 20 },
+  { id: 6, name: "Mumbai", image: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?auto=format&fit=crop&w=600&q=80", hotels: 51 },
+  { id: 7, name: "Delhi", image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=600&q=80", hotels: 47 },
+  { id: 8, name: "Pune", image: "https://images.unsplash.com/photo-1601987077677-5346c0c57d3f?auto=format&fit=crop&w=600&q=80", hotels: 19 },
+  { id: 9, name: "Kerala", image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80", hotels: 31 },
+  { id: 10, name: "Munnar", image: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=600&q=80", hotels: 16 },
+  { id: 11, name: "Ooty", image: "https://images.unsplash.com/photo-1600100397608-f9d34ed12a02?auto=format&fit=crop&w=600&q=80", hotels: 14 },
+  { id: 12, name: "Mahabaleshwar", image: "https://images.unsplash.com/photo-1571147804823-98fe9819db06?auto=format&fit=crop&w=600&q=80", hotels: 12 },
+  { id: 13, name: "Lonavala", image: "https://images.unsplash.com/photo-1580289142440-de6f462736c7?auto=format&fit=crop&w=600&q=80", hotels: 18 },
+  { id: 14, name: "Kashmir", image: "https://images.unsplash.com/photo-1566837497312-7be4c9f5a7e0?auto=format&fit=crop&w=600&q=80", hotels: 15 },
+  { id: 15, name: "Rishikesh", image: "https://images.unsplash.com/photo-1591017683879-59e40c76d1a4?auto=format&fit=crop&w=600&q=80", hotels: 22 },
+];

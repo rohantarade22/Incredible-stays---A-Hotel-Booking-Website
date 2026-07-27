@@ -1,0 +1,16 @@
+.wishlist-page__hero {
+  padding: 8rem 1.5rem 2rem;
+  background: var(--gradient-primary);
+  color: #fff;
+}
+.wishlist-page__hero h1 { color: #fff; margin-bottom: 0.4rem; }
+.wishlist-page__hero p { color: #dbe7f1; margin: 0; }
+
+.wishlist-page__empty {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: var(--text-muted);
+}
+.wishlist-page__empty svg { color: var(--color-secondary-dark); margin-bottom: 1rem; }
+.wishlist-page__empty h4 { color: var(--text); margin-bottom: 0.5rem; }
+.wishlist-page__empty p { margin-bottom: 1.6rem; }
