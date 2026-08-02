@@ -29,4 +29,3 @@ npm run preview
 
 ## Pages
 Home · Hotels · Hotel Details · Booking · Wishlist · About · Contact · FAQ · Offers · 404
-
